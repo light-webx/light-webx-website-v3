@@ -316,112 +316,37 @@ export default function LightWebxProducts() {
 
   const products = [
     {
-      name: "WebForge Pro",
-      category: "Web Development",
+      name: "2 Quick Paper",
+      category: "Fintech",
       description:
-        "Advanced web development framework with AI-powered code generation and real-time collaboration features.",
+        "2 Quick Paper is a platform where businesses can digitalize their invoice and receipt management.",
       features: [
-        "AI Code Generation",
-        "Real-time Collaboration",
-        "Component Library",
-        "Performance Analytics",
+        "Invoice Management",
+        "Receipt Management",
+        "Reporting and Analytics",
+        "Tax Compliance",
       ],
-      price: "$99/month",
+      price: "$5/month",
       rating: 4.9,
-      downloads: "50K+",
+      downloads: "100+",
       icon: Code2,
       gradient: "from-blue-400 to-blue-600",
       status: "Popular",
+      link: "https://2quickpaper.com",
     },
     {
-      name: "MobileSync Studio",
-      category: "Mobile Development",
+      name: "Software Guides",
+      category: "Education",
       description:
-        "Cross-platform mobile app development suite with native performance and seamless deployment.",
-      features: [
-        "Cross-platform Support",
-        "Native Performance",
-        "Cloud Sync",
-        "Live Preview",
-      ],
-      price: "$149/month",
-      rating: 4.8,
-      downloads: "30K+",
-      icon: Smartphone,
-      gradient: "from-blue-500 to-blue-700",
-      status: "New",
-    },
-    {
-      name: "CloudOps Manager",
-      category: "Cloud Infrastructure",
-      description:
-        "Comprehensive cloud management platform for deploying, monitoring, and scaling applications.",
-      features: [
-        "Multi-cloud Support",
-        "Auto Scaling",
-        "Cost Optimization",
-        "Security Monitoring",
-      ],
-      price: "$199/month",
-      rating: 4.7,
-      downloads: "25K+",
-      icon: Cloud,
-      gradient: "from-blue-300 to-blue-500",
-      status: "Enterprise",
-    },
-    {
-      name: "DataViz Engine",
-      category: "Analytics",
-      description:
-        "Real-time data visualization and analytics platform with interactive dashboards and AI insights.",
-      features: [
-        "Real-time Analytics",
-        "Interactive Dashboards",
-        "AI Insights",
-        "Custom Widgets",
-      ],
-      price: "$79/month",
-      rating: 4.6,
-      downloads: "40K+",
-      icon: BarChart3,
-      gradient: "from-blue-600 to-blue-800",
-      status: "Trending",
-    },
-    {
-      name: "DevStack Toolkit",
-      category: "Developer Tools",
-      description:
-        "Complete developer toolkit with code analysis, debugging tools, and performance optimization.",
-      features: [
-        "Code Analysis",
-        "Advanced Debugging",
-        "Performance Profiling",
-        "Team Collaboration",
-      ],
-      price: "$59/month",
-      rating: 4.8,
-      downloads: "60K+",
-      icon: Layers,
-      gradient: "from-blue-400 to-blue-700",
-      status: "Popular",
-    },
-    {
-      name: "DatabasePro Suite",
-      category: "Database Management",
-      description:
-        "Advanced database management and optimization platform with AI-powered query optimization.",
-      features: [
-        "Query Optimization",
-        "Performance Monitoring",
-        "Backup Automation",
-        "Security Scanning",
-      ],
-      price: "$129/month",
+        "The Software Guides website is a comprehensive resource for software developers and enthusiasts.",
+      features: ["Tutorials and Guides", "Code Examples", "Community Support"],
+      price: "$0/month",
       rating: 4.9,
-      downloads: "35K+",
-      icon: Database,
-      gradient: "from-blue-500 to-blue-800",
-      status: "Enterprise",
+      downloads: "100+",
+      icon: Code2,
+      gradient: "from-blue-400 to-blue-600",
+      status: "Popular",
+      link: "https://softwareguide.dev",
     },
   ];
 
@@ -436,7 +361,7 @@ export default function LightWebxProducts() {
       icon: Users,
       title: "Community",
       description:
-        "Building a global community of developers who collaborate and grow together.",
+        "Building a global community of users who share our passion to deliver exceptional products.",
     },
     {
       icon: Target,
@@ -448,7 +373,7 @@ export default function LightWebxProducts() {
       icon: Award,
       title: "Recognition",
       description:
-        "Industry-leading products trusted by developers and enterprises worldwide.",
+        "Industry-leading products trusted by people around the world.",
     },
   ];
 
@@ -514,30 +439,29 @@ export default function LightWebxProducts() {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="floating">
             <h1 className="hero-title text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-              Software Products
+              Tech That Moves You Forward.
             </h1>
           </div>
           <p className="hero-subtitle text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto">
-            Discover our suite of cutting-edge software products designed to
-            accelerate development, enhance productivity, and transform your
-            digital workflow.
+            Light Webx builds innovative tech products that transform how people
+            live, work, and connect—driving the future, one product at a time.
           </p>
 
           <div className="hero-stats grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-8">
             <div className="text-center p-4 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-              <div className="text-2xl font-bold text-blue-400 mb-1">6</div>
+              <div className="text-2xl font-bold text-blue-400 mb-1">1</div>
               <div className="text-sm text-gray-300">Products</div>
             </div>
             <div className="text-center p-4 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-              <div className="text-2xl font-bold text-blue-400 mb-1">240K+</div>
-              <div className="text-sm text-gray-300">Downloads</div>
+              <div className="text-2xl font-bold text-blue-400 mb-1">90+</div>
+              <div className="text-sm text-gray-300">Users</div>
             </div>
             <div className="text-center p-4 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-              <div className="text-2xl font-bold text-blue-400 mb-1">4.8</div>
+              <div className="text-2xl font-bold text-blue-400 mb-1">4</div>
               <div className="text-sm text-gray-300">Avg Rating</div>
             </div>
             <div className="text-center p-4 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-              <div className="text-2xl font-bold text-blue-400 mb-1">50+</div>
+              <div className="text-2xl font-bold text-blue-400 mb-1">5+</div>
               <div className="text-sm text-gray-300">Countries</div>
             </div>
           </div>
@@ -545,12 +469,15 @@ export default function LightWebxProducts() {
           <Button
             size="lg"
             className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 border-0 text-lg px-8 py-3 relative overflow-hidden group"
+            asChild
           >
-            <span className="relative z-10">
-              Explore Products
-              <ArrowRight className="ml-2 h-5 w-5 inline" />
-            </span>
-            <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+            <Link href="#products">
+              <span className="relative z-10">
+                Explore Products
+                <ArrowRight className="ml-2 h-5 w-5 inline" />
+              </span>
+              <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+            </Link>
           </Button>
         </div>
       </section>
@@ -578,54 +505,44 @@ export default function LightWebxProducts() {
                 Our Mission
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                At Light Webx, we believe in empowering developers with the
-                tools they need to build extraordinary software. Founded in
-                2020, we've been at the forefront of software innovation,
-                creating products that streamline development workflows and
-                enhance productivity.
-              </p>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                Our team of passionate engineers and designers work tirelessly
-                to bridge the gap between complex technology and user-friendly
-                solutions. We're committed to making advanced software
-                development accessible to everyone, from individual developers
-                to enterprise teams.
+                Our mission at Light Webx is to create innovative, intuitive
+                technology products that empower people and businesses to unlock
+                their full potential — driving meaningful change and shaping the
+                future through cutting-edge solutions.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 px-3 py-1">
-                  AI-Powered Tools
+                  AI-Powered Products
                 </Badge>
                 <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 px-3 py-1">
-                  Cloud-Native
+                  User-Centric
                 </Badge>
                 <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 px-3 py-1">
-                  Developer-First
+                  Cross-Platform{" "}
                 </Badge>
                 <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 px-3 py-1">
-                  Open Source
+                  Secure
                 </Badge>
               </div>
             </div>
 
             <div className="about-stats-grid grid grid-cols-2 gap-6">
               <div className="about-stats text-center p-6 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-                <div className="text-3xl font-bold text-blue-400 mb-2">4+</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">6+</div>
                 <div className="text-sm text-gray-300">Years of Innovation</div>
               </div>
               <div className="about-stats text-center p-6 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
                 <div className="text-3xl font-bold text-blue-400 mb-2">
-                  100K+
+                  100+
                 </div>
                 <div className="text-sm text-gray-300">Active Users</div>
               </div>
               <div className="about-stats text-center p-6 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-                <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
-                <div className="text-sm text-gray-300">Team Members</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">1</div>
+                <div className="text-sm text-gray-300">Team Member</div>
               </div>
               <div className="about-stats text-center p-6 bg-gray-900/50 backdrop-blur-lg rounded-lg border border-gray-800">
-                <div className="text-3xl font-bold text-blue-400 mb-2">
-                  99.9%
-                </div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">90%</div>
                 <div className="text-sm text-gray-300">Uptime</div>
               </div>
             </div>
@@ -662,12 +579,11 @@ export default function LightWebxProducts() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-              Our Product Suite
+              Our Products
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Professional-grade software tools built for developers, by
-              developers. Each product is crafted with precision and designed
-              for maximum productivity.
+              Innovative tech products that simplify life, boost productivity,
+              and empower growth for people and businesses.
             </p>
           </div>
 
@@ -746,7 +662,7 @@ export default function LightWebxProducts() {
                           </span>
                         </div>
                         <div className="flex items-center">
-                          <Download className="h-4 w-4 text-gray-400" />
+                          <Users className="h-4 w-4 text-gray-400" />
                           <span className="text-sm text-gray-300 ml-1">
                             {product.downloads}
                           </span>
@@ -758,32 +674,20 @@ export default function LightWebxProducts() {
                     </div>
 
                     <div className="flex space-x-2">
-                      <Button className="flex-1 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 border-0 text-sm">
-                        Try Free
-                      </Button>
                       <Button
-                        variant="outline"
-                        size="sm"
-                        className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:border-blue-500"
+                        className="flex-1 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 border-0 text-sm"
+                        asChild
                       >
-                        <ExternalLink className="h-4 w-4" />
+                        <Link href={product.link}>
+                          <ExternalLink className="h-4 w-4" color="white" />
+                          Try Free
+                        </Link>
                       </Button>
                     </div>
                   </CardContent>
                 </Card>
               );
             })}
-          </div>
-
-          <div className="text-center mt-12">
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white"
-            >
-              View All Products
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
           </div>
         </div>
       </section>
@@ -792,26 +696,19 @@ export default function LightWebxProducts() {
       <section className="py-20 bg-gradient-to-r from-gray-900/50 to-black">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-            Ready to Transform Your Workflow?
+            Join the Light Webx Revolution
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join thousands of developers who trust Light Webx products to build
-            the future of software.
+            Unlock the potential of the future with Light Webx.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 border-0"
-            >
-              Start Free Trial
-              <Zap className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-gray-700 text-gray-300 hover:bg-gray-800"
-            >
-              Contact Sales
+            <Button size="lg" variant="outline" className="text-black" asChild>
+              <Link
+                href={"https://api.whatsapp.com/send?phone=17959259"}
+                target="_blank"
+              >
+                Contact Sales
+              </Link>
             </Button>
           </div>
         </div>
